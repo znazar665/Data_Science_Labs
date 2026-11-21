@@ -1,0 +1,39 @@
+{
+  "dataset": "UCI Auto MPG (DOI: 10.24432/C5859H, CC BY 4.0)",
+  "target": "mpg",
+  "variant": 8,
+  "best_nn_model": "NN_Var8 (batch=16)",
+  "best_overall_model": "NN_Var8 (batch=16)",
+  "seed": 42,
+  "raw_features": [
+    "cylinders",
+    "displacement",
+    "horsepower",
+    "weight",
+    "acceleration",
+    "model_year",
+    "origin"
+  ],
+  "transformed_features": [
+    "num__cylinders",
+    "num__displacement",
+    "num__horsepower",
+    "num__weight",
+    "num__acceleration",
+    "num__model_year",
+    "cat__origin_1",
+    "cat__origin_2",
+    "cat__origin_3"
+  ],
+  "split_sizes": {
+    "train": 278,
+    "val": 60,
+    "test": 60
+  },
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "tensorflow": "2.20.0"
+  }
+}
