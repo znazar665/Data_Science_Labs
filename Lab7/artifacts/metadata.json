@@ -1,0 +1,60 @@
+{
+  "dataset": "Fashion-MNIST (Zalando Research, MIT License)",
+  "class_names": [
+    "Футболка або топ",
+    "Штани",
+    "Светр",
+    "Сукня",
+    "Пальто",
+    "Сандалі",
+    "Сорочка",
+    "Кросівки",
+    "Сумка",
+    "Черевики"
+  ],
+  "input_shape": [
+    28,
+    28
+  ],
+  "dtype": "float32",
+  "input_scale": "0-255 (Rescaling 1./255 inside model)",
+  "seed": 42,
+  "variant": 8,
+  "selected_model": "NN_Var8 (batch=256)",
+  "selection_criterion": "min validation cross_entropy",
+  "split_sizes": {
+    "train": 48000,
+    "val": 12000,
+    "test": 10000
+  },
+  "train_indices_sample": [
+    50398,
+    26265,
+    28266,
+    38657,
+    53404,
+    20943,
+    44113,
+    40595,
+    1684,
+    48481
+  ],
+  "val_indices_sample": [
+    37343,
+    2050,
+    12128,
+    30987,
+    43799,
+    56171,
+    36150,
+    48087,
+    56721,
+    29606
+  ],
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "tensorflow": "2.20.0"
+  }
+}
